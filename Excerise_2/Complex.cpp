@@ -43,16 +43,5 @@ void Complex::Add(Complex c) {
 
 void Complex::Print()
 {
-	if (isReal())
-	{
-		cout << real << endl;
-	}
-	else if (isImaginary())
-	{
-		cout << imag << " i" << endl;
-	}
-	else
-	{
-		cout << real << " + " << imag << " i" << endl;
-	}
+	cout << "( " << real << " , " << imag << " )" << endl;
 }
