@@ -49,6 +49,7 @@ int main()
 	Circ3.printCircleData();
 
 	cout << "\nRatio = " << Circ1.calcArea() / Circ2.calcArea();
+
 	return 0;
 }
 
